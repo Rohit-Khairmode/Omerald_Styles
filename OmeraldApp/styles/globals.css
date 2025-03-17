@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4568f9;
+  --secondary: #ff9900;
+}
+
+.ant-btn .anticon {
+  vertical-align: middle;
+}
+
+.PhoneInputInput {
+  padding: 2px 5px;
+  outline: none;
+  color: black;
+}
+
+.cl-internal-b3fm6y {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.cl-formButtonPrimary,
+.cl-formButtonPrimary:hover {
+  background-color: rgb(255, 177, 32);
+}
+
+@layer components {
+  .spinner-mini {
+    margin: 1;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid #b7c7d7;
+    border-right-color: transparent;
+    animation: rotate 1s infinite linear;
+  }
+
+  @keyframes rotate {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}

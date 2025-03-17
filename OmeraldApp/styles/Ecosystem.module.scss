@@ -1,0 +1,188 @@
+.bgImage {
+  width: 720px;
+  height: 490px;
+  position: relative;
+}
+
+.item {
+  width: 197.73px;
+  height: 153.04px;
+  position: absolute;
+
+  &0 {
+    left: 63px;
+    top: 11px;
+  }
+
+  &1 {
+    left: 440px;
+    top: 10px;
+  }
+
+  &2 {
+    top: 162px;
+    left: 249px;
+  }
+
+  &3 {
+    top: 249px;
+  }
+
+  &4 {
+    top: 351px;
+    left: 250px;
+  }
+
+  &5 {
+    left: 526px;
+    top: 239px;
+  }
+}
+
+.icon {
+  width: 79.42px;
+  height: 60.27px;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .bgImage {
+    width: 560px;
+    height: 450px;
+    position: relative;
+  }
+  
+  .item {
+    width: 170px;
+    height: 130px;
+    position: absolute;
+  
+    &0 {
+      left: 43px;
+      top: 11px;
+    }
+  
+    &1 {
+      left: 340px;
+      top: 10px;
+    }
+  
+    &2 {
+      top: 145px;
+      left: 185px;
+    }
+  
+    &3 {
+      top: 230px;
+    }
+  
+    &4 {
+      top: 321px;
+      left: 190px;
+    }
+  
+    &5 {
+      left: 400px;
+      top: 210px;
+    }
+  }
+  
+  .icon {
+    width: 79.42px;
+    height: 60.27px;
+    position: relative;
+  }
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+  .bgImage {
+    width: 390px;
+    height: 305px;
+  }
+
+  .item {
+    width: 120px;
+    height: 40px;
+
+    &0 {
+      left: 30px;
+      top: 5px;
+    }
+
+    &1 {
+      left: 230px;
+      top: 4px;
+    }
+
+    &2 {
+      top: 95px;
+      left: 130px;
+    }
+
+    &3 {
+      top: 157px;
+      left: -10px;
+    }
+
+    &4 {
+      top: 215px;
+      left: 135px;
+    }
+
+    &5 {
+      left: 282px;
+      top: 148px;
+    }
+  }
+
+  .icon {
+    width: 31.79px;
+    height: 24.11px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .bgImage {
+    width: 350px;
+    height: 305px;
+  }
+
+
+  .item {
+    width: 120px;
+    height: 40px;
+
+    &0 {
+      left: 22px;
+      top: 5px;
+    }
+
+    &1 {
+      left: 207px;
+      top: 4px;
+    }
+
+    &2 {
+      top: 95px;
+      left: 115px;
+    }
+
+    &3 {
+      top: 157px;
+      left: -10px;
+    }
+
+    &4 {
+      top: 215px;
+      left: 115px;
+    }
+
+    &5 {
+      left: 242px;
+      top: 148px;
+    }
+  }
+}
